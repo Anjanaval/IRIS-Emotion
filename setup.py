@@ -1,13 +1,13 @@
-from distutils.core import setup
-from pathlib import Path
+from setuptools import setup
 
-this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 setup(
   name = 'iris_emotion',        
-  packages = ['iris_emotion'],   
-  version = '0.0.4',      
+  packages = ['iris_emotion'],
+  include_package_data= True,   
+  version = '0.1.0',      
   license='MIT',       
   description = 'Detect emotions in text.',
   long_description=long_description,
@@ -15,7 +15,6 @@ setup(
   author = 'Anjana Valsalan',                   
   author_email = 'anjana.valsalan@my.uwi.edu',      
   url = 'https://github.com/Anjanaval/IRIS-Emotion.git', 
-  download_url = 'https://github.com/Anjanaval/IRIS-Emotion/archive/refs/tags/0.0.4.tar.gz',
   keywords = ['Emotion Detection', 'Sentiment Analysis', 'Natural Language Processing'],
   install_requires=[            
           'tensorflow',
