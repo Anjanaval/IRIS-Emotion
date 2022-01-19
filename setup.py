@@ -8,7 +8,7 @@ setup(
   author = 'Anjana Valsalan',                   
   author_email = 'anjana.valsalan@my.uwi.edu',      
   url = 'https://github.com/Anjanaval/IRIS-Emotion.git', 
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Anjanaval/IRIS-Emotion/archive/refs/tags/0.0.1.tar.gz',
   keywords = ['Emotion Detection', 'Sentiment Analysis', 'Natural Language Processing'],
   install_requires=[            
           'tensorflow',
