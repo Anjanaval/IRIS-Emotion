@@ -1,10 +1,17 @@
 from distutils.core import setup
+from pathlib import Path
+
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
 setup(
-  name = 'iris_emotion',         
+  name = 'iris_emotion',        
   packages = ['iris_emotion'],   
   version = '0.0.3',      
   license='MIT',       
-  description = 'Detect emotions in text.',   
+  description = 'Detect emotions in text.',
+  long_description=long_description,
+  long_description_content_type='text/markdown',    
   author = 'Anjana Valsalan',                   
   author_email = 'anjana.valsalan@my.uwi.edu',      
   url = 'https://github.com/Anjanaval/IRIS-Emotion.git', 

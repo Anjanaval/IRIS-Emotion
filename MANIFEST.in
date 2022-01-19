@@ -1,0 +1,10 @@
+include *.txt
+include *.md
+include *.cfg
+include *.pkl
+recursive-include ./iris_emotion/*
+
+setup.cfg
+setup.py
+iris_emotion/SA_API.py
+iris_emotion/__init__.py
