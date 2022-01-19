@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'iris_emotion',         
   packages = ['iris_emotion'],   
-  version = '0.0.2',      
+  version = '0.0.3',      
   license='MIT',       
   description = 'Detect emotions in text.',   
   author = 'Anjana Valsalan',                   
