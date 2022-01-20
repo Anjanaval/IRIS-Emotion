@@ -7,7 +7,7 @@ setup(
   name = 'iris_emotion',        
   packages = ['iris_emotion'],
   include_package_data= True,   
-  version = '0.1.0',      
+  version = '0.1.1',      
   license='MIT',       
   description = 'Detect emotions in text.',
   long_description=long_description,
